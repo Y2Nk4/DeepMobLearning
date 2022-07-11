@@ -11,7 +11,7 @@ import xt9.deepmoblearning.common.entity.EntityTrialEnderman;
 @Mod.EventBusSubscriber
 public class TrialEndermanTeleport {
     @SubscribeEvent
-    public static void onEndermanTeleport(EnderTeleportEvent event) {
+    public static void onPlayerClone(EnderTeleportEvent event) {
         if (event.getEntityLiving() instanceof EntityTrialEnderman) {
             event.setCanceled(true);
         }

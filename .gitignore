@@ -21,3 +21,6 @@ build
 classes
 eclipse
 run
+
+# maven local cache
+modmaven.k-4u.nl
